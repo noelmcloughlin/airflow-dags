@@ -1,0 +1,8 @@
+{
+  "synchronize_dags_from_repo__domains": "controller, apples, applestest, oranges, orangestest",
+  "synchronize_dags_from_repo__repo": "https://github.com/noelmcloughlin/airflow-dags",
+  "airflow_db_cleanup__max_db_entry_age_in_days": 5,
+  "airflow_backup_config__directory": "/backupvol/airflow-backups",
+  "airflow_log_cleanup__max_log_age_in_days": 10,
+  "airflow_log_cleanup__enable_delete_child_log": "False"
+}
